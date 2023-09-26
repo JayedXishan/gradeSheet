@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Grade Sheet</h2>
+        <div class="inputContainer">
+            <div class="sub">
+                <input id="ban" type="number" required="required">
+                <span>Bangla</span>
+            </div>
+            <div class="sub">
+                <input id="eng" type="number" required="required">
+                <span>English</span>
+            </div>
+            <div class="sub">
+                <input id="math" type="number" required="required">
+                <span>Math</span>
+            </div>
+            <div class="sub">
+                <input id="bgs" type="number" required="required">
+                <span>BGS</span>
+            </div>
+            <div class="sub">
+                <input id="ict" type="number" required="required">
+                <span>ICT</span>
+            </div>
+
+            <div class="btn">
+                <button type="button" onclick="cal()">Calculate</button>
+            </div>
+            
+        </div>
+        <div class="totalShow">
+                <div class="show">
+                    <p class="header">Total Marks</p>
+                    <p class="value" id="tm">500</p>
+                </div>
+                <div class="show">
+                    <p class="header">Marks Got</p>
+                    <p class="value" id="mo"></p>
+                </div>
+                <div class="show">
+                    <p class="header">Result</p>
+                    <p class="value" id="rsl"></p>
+                </div>
+                <div class="show">
+                    <p class="header">Percentage</p>
+                    <p class="value" id="per"></p>
+                </div>
+                <div class="show">
+                    <p class="header">Grade</p>
+                    <p class="value" id="grd"></p>
+                </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="marks.js"></script>
+</body>
+</html>
