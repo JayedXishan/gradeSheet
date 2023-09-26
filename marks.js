@@ -11,7 +11,7 @@ function cal(){
     else{
         var gotMarks=s1+s2+s3+s4+s5;
         var avgMarks=gotMarks/5;
-        var per=(gotMarks/500)*100;
+        var per=parseInt((gotMarks/500)*100);
         let grade="";
         let res="";
         if(s1>=33 && s2>=33 && s3>=33 && s4>=33 && s5>=33){
